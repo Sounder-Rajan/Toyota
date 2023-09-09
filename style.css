@@ -1,0 +1,614 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    position: sticky;
+    top: 0; 
+    height: 100px;
+    z-index: 1;
+}
+.text{
+    text-decoration: none;
+     color: oldlace;
+}
+.title{
+    position: relative;
+    left: 40px;
+    width: 365px;
+    padding: 15px;
+}
+.title-1{
+    font-family: 'Reggae One', cursive;
+    font-size: 40px;
+}
+.title-2{
+    color: orange;
+}
+.menu{
+    position: absolute;
+    right: 100px;
+    top: 8px;
+}
+.fa-bars{
+    position: absolute;
+    right: 20px;
+    top: 45px;
+    display: none;
+    color: rgb(255, 255, 255);
+}
+.list{
+    padding: 35px;
+    display: inline-block;
+    list-style: none;
+    gap: 50px;
+}
+.list-1{
+    display: inline-block;
+    margin-left: 60px;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: capitalize;
+}
+.head{
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    color:rgb(253, 245, 230);
+}
+.drop{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: none;
+    outline: none;
+}
+.intro{
+    background: url(supra-mk4.jpg) ;
+    height: 600px;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.wellcome{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Reggae One', cursive;
+}
+.brand-name{
+    color: orange;
+}
+.info{
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform:capitalize;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.button{
+    position: absolute;
+    right: 670px;
+    top: 400px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color:orange;
+    background: none;
+    color: white;
+    font-weight: 1000;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: all 1s;
+    cursor: pointer;
+}
+.button:hover{
+    background: orange;
+    color: black;
+}
+.about{
+    position: relative;
+    background: rgb(0, 0, 0);
+    height: 700px;
+    width: 100%;
+}
+.left{
+   padding-left: 100px;
+   padding-top: 100px;
+   display: inline-block;
+}
+.left img{
+    height: 350px;
+    width: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left-1{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+}
+.left-2{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(182, 182, 182);
+}
+.left-3{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    color: orange;
+    text-decoration: none;
+}
+.icon-1{
+    color: rgb(119, 119, 119);
+    margin-left: 10px;
+}
+.right{
+    display: inline-block;
+    margin-left: 100px;
+}
+.right img{
+    height: 350px;
+    width: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.right-1{
+    margin-top: 15px;
+    margin-left: 5px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+}
+.right-2{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(182, 182, 182);
+}
+.right-3{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    font-weight: 500;
+    font-family: 'Josefin Sans', sans-serif;
+    color: orange;
+    text-decoration: none;
+}
+.icon-2{
+    color: rgb(119, 119, 119);
+    margin-left: 10px;
+}
+.service{
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    background: rgb(0, 0, 0);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.service h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding: 50px;
+    margin-left: 50px;
+    color: rgb(255, 255, 255);
+}
+.all{
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    background: orange;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all 0.9s;
+}
+.all:hover{
+    background: black;
+    color: white;
+    border: 3px solid orange;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.box{
+    height: 300px;
+    width: 400px;
+    border-top: 3px solid rgb(64, 64, 64) ;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left:75px;
+    padding: 50px; 
+}
+.box:hover{
+    border-top: 3px solid orange;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+}
+.box:hover .logo{
+    color: orange;
+}
+.box h5{
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+}
+.box p{
+    margin-top: 15px;
+    color: aliceblue;
+    line-height: 22px;
+}
+.box a{
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    color: white;
+}
+.box a i{
+    background: orange;
+    padding: 5px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-right: 10px;
+}
+.box-1{
+    height: 300px;
+    width: 400px;
+    border-top: 3px solid rgb(64, 64, 64) ;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left:75px;
+    padding: 50px; 
+}
+.box-1:hover{
+    border-top: 3px solid orange;
+}
+.logo-1{
+    font-size: 40px;
+    color: white;
+}
+.box-1:hover .logo-1{
+    color: orange;
+}
+.box-1 h5{
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+}
+.box-1 p{
+    margin-top: 15px;
+    color: aliceblue;
+    line-height: 22px;
+}
+.box-1 a{
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    color: white;
+}
+.box-1 a i{
+    background: orange;
+    padding: 5px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-right: 10px;
+}
+.contact{
+    position: relative;
+    height: 450px;
+    width: 100%;
+    background: black;
+    color: aliceblue;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.section{
+    padding: 100px;
+    width: 500px;
+    display: inline-block;
+}
+.section h1{
+    text-transform: capitalize;
+}
+.section span{
+    color: orange;
+}
+.section p{
+    margin-top: 30px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+}
+.section h4{
+    margin-top: 30px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.section h4:hover{
+    color: orange;
+}
+.section-1{
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+}
+.section-1 h3{
+    font-size: 25px;
+}
+.section-1 a{
+    display: block;
+    position: relative;
+    top: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.section-1 a:hover{
+    color: orange;
+}
+.section-2{
+   position: absolute;
+   top: 95px;
+   right: 480px;
+}
+.section-2 h3{
+    font-size: 25px;
+}
+.section-2 a{
+    display: block;
+    position: relative;
+    top: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: aliceblue;
+}
+.section-2 a:hover{
+    color: orange;
+}
+.section-3{
+    position: absolute;
+    top: 95px;
+    right: 90px;
+
+}
+.section-3 h3{
+    font-size: 25px;
+    color: orange;
+}
+.section-3 Label{
+    display: block;
+    margin-top: 60px;
+}
+.section-3 input{
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid gray;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: capitalize;
+    display: block;
+}
+.section-3 a{
+     position: relative;
+     top: 50px;
+     left: 60px;
+     background: orange;
+     color: white;
+     padding: 15px;
+     text-decoration: none;
+     border-top-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+     font-weight: bold;
+     transition: all 0.9s;
+}
+.section-3 a:hover{
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: transparent;
+    border: 2px solid orange;
+}
+.end{
+    width: 100%;
+    height: 150px;
+    background: black;
+}
+.end p{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.end span{
+    color: orange;
+}
+@media (min-width:405px) and (max-width:480px) {
+    .header{
+        width: 100% ;
+        height: 100px;
+        position: sticky;
+        top: 0;
+        z-index: 0;
+    }
+    .title-1{
+        position: absolute;
+        font-size: 30px;
+        top: 20px;
+        left: -10px;
+    }
+    .menu-list{
+        position: relative;
+        left: 400px;
+        color: aliceblue;
+    }
+    .menu{
+        display: none;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+    }
+    .list{
+        background: rgb(255, 255, 255,0.6);
+        width: 150px;
+        height: 240px;
+        border-radius: 3px;
+    }
+    .list-1{
+        position: relative;
+        right: 55px;
+        top: -10px;
+        display: block;
+        padding: 10px;
+    }
+    .head{
+        color: black;
+    }
+    .drop{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 190px;
+    }
+    .fa-bars{
+        display: block;
+        font-size: 25px;
+        color: aliceblue;
+        right: 30px;
+        top: 35px;
+    }
+    .intro{
+        height: 800px;
+        width: 100%;
+        background-position: center;
+        background-size:cover;
+    }
+    .wellcome{
+        padding-top: 100px;
+    }
+    .info{
+        margin-top: -15px;
+        padding: 80px;
+        text-align: justify;
+        line-height: 30px;
+    }
+    .button{
+        position: absolute;
+        left: 130px ;
+        width: 150px;
+        margin-top: 290px;
+    }
+    .about{
+        width: 100%;
+        height: 1000px;
+
+    }
+    .left{
+        width: 90%;
+        position: absolute;
+        top: -40px;
+        right: 80px;
+    }
+    .left img{
+        height: 200px;
+        width: 100%;
+        margin: 10px;
+    }
+    .right{
+        width: 90%;
+        position: absolute;
+        right: 15px;
+        margin-top: 470px;
+    }
+    .right img{
+        height: 200px;
+        width: 80%;
+        margin-left: 50px;
+    }
+    .right-1{
+        width: 300px;
+        margin-left: 50px;
+    }
+    .right-2{
+        margin-left: 55px;
+    }
+    .right-3{
+        margin-left: 45px;
+    }
+    .service{
+        height: 2400px;
+    }
+    .service h1{
+        position: absolute;
+        left: -30px;
+    }
+    .all{
+        display: none;
+    }
+    .box{
+        position: relative;
+        top: 100px;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .box-1{
+        position: relative;
+        top: 100px;
+        width: 90%;
+        margin-left: 20px;
+    }
+    .contact{
+        height: 1500px;
+        overflow-x: hidden;
+    }
+    .section{
+        text-align: center;
+        position: absolute;
+        left: -50px;
+    }
+    .section-1{
+       position: absolute;
+       left: 90px;
+       width: 150px;
+       top: 400px;
+    }
+    .section-2{
+        position: absolute;
+        top: 700px;
+        left: 80px;
+        width: 300px;
+    }
+    .section-3{
+        display: block;
+        margin-top: 900px;
+        position: absolute;
+        left: 80px;
+    }
+
+
+}
